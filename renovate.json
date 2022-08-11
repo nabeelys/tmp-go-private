@@ -1,0 +1,10 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"dependencyDashboard": true,
+	"customEnvVariables": {
+		"GOPRIVATE": "gitlab.com/nabeelsaabna",
+		"GONOSUMDB": "gitlab.com/nabeelsaabna",
+		"GONOPROXY": "gitlab.com/nabeelsaabna"
+	},
+	"postUpdateOptions": ["gomodTidy"]
+}
